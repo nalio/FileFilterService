@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<serviceType name="FileFilterServiceType" factoryClass="com.progress.codeshare.esbservice.fileFilter.FileFilterService" xmlns="http://www.sonicsw.com/sonicxq" >
+	<validParams>
+    	  <runtime>
+            <stringParam name="directoryName"/>
+            <stringParam name="fileExtensionPoint"/>
+            <stringParam name="fileExtension"/>            
+			<stringParam name="moveExtensionPoint"/>            
+            <stringParam name="destinationExtensionPoint"/>            
+        </runtime>
+	</validParams>
+</serviceType>
